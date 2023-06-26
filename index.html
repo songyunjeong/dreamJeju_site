@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dream Jeju</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div id="container">
@@ -36,12 +36,21 @@
           </ul>
         </nav>
       </header>
-      <div id="slideShow"></div>
+      <div id="slideShow">
+        <div id="slides">
+          <img src="images/photo-2.jpg" alt="" />
+          <img src="images/photo-3.jpg" alt="" />
+          <img src="images/photo-1.jpg" alt="" />
+        </div>
+        <button id="prev">&lang;</button>
+        <button id="next">&rang;</button>
+      </div>
       <div id="contents">
         <div id="tabMenu"></div>
         <div id="links"></div>
       </div>
       <footer></footer>
     </div>
+    <script src="js/slideshow.js"></script>
   </body>
 </html>
