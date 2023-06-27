@@ -7,5 +7,6 @@
 <img width="1096" alt="스크린샷 2023-06-27 오후 11 10 36" src="https://github.com/songyunjeong/dreamJeju_site/assets/117874502/1c61a6ba-cda5-4e19-92d8-5ea2311ffff3">
 
 <br />
+<br />
 
 source. Do it! HTML+CSS+자바스크립트 웹 표준의 정석 - 특별부록
