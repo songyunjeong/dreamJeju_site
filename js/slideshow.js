@@ -1,12 +1,8 @@
-const slides = document.querySelectorAll("#slides > img");
+let slides = document.querySelectorAll("#slides > img");
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 
 let current = 0;
-
-showSlides(current);
-prev.onclick = prevSlide;
-next.onclick = nextSlide;
 
 function showSlide(n) {
   for (let i = 0; i < slides.length; i++) {
@@ -32,3 +28,6 @@ function nextSlide() {
   }
   showSlide(current);
 }
+
+prev.onclick = prevSlide;
+next.onclick = nextSlide;
